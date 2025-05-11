@@ -5,22 +5,6 @@ The `clsx` project provides a tiny, yet powerful utility for building `className
 
 **Source Repository:** [https://github.com/lukeed/clsx.git](https://github.com/lukeed/clsx.git)
 
-```mermaid
-flowchart TD
-    A0["`clsx` function (main)"]
-    A1["`ClassValue` type"]
-    A2["`toVal` function (internal)"]
-    A3["`clsx(slash)lite` module"]
-    A4["Benchmarks"]
-
-    A0 -- "Accepts input of" --> A1
-    A0 -- "Uses" --> A2
-    A3 -- "Alternative version of" --> A0
-    A4 -- "Evaluates performance of" --> A0
-    A4 -- "Evaluates performance of" --> A3
-
-```
-
 ## Chapters
 
 1. [`clsx` function (main)
